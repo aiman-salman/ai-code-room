@@ -11,8 +11,13 @@ connect();
 
 const app = express();
 
+const corsOption = {
+  origin: ["http://localhost:5173", "https://ai-code-room-f.vercel.app"]
+}
+
 // middlewares
-app.use(cors());
+app.use(cors(corsOption));
+
 
 app.use(morgan('dev'));
 app.use(express.json());
