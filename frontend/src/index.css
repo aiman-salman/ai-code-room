@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.message-box {
+  max-height: 80vh; 
+  overflow-y: auto; 
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar hiding */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.color{
+  background-color: #243949;
+  color: white;
+}
+
+.Toastify__toast-container .Toastify__toast--info {
+  background-color: #d3d4d5 !important;
+  color: #243949 !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 10px rgba(10, 10, 10, 0.2) !important;
+  padding: 16px !important;
+}
+
