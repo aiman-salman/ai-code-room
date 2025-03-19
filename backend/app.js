@@ -12,7 +12,7 @@ connect();
 const app = express();
 
 const corsOption = {
-    origin: ["http://localhost:5173", "https://ai-code-room-f.vercel.app"],
+    // origin: ["http://localhost:5173", "https://ai-code-room-f.vercel.app"],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,  
 }
