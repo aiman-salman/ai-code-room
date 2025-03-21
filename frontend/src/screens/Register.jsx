@@ -50,7 +50,7 @@ const Register = () => {
                 type="password" id="password" className="w-full p-3 rounded-full bg-opacity-50 backdrop-blur-md caret-white text-white focus:outline-none focus:ring-1 focus:ring-[#243949]" placeholder="Enter your password"
                 />
             </div>
-            <button type='submit' className="w-full p-2 rounded-full bg-[#243949] text-white text-lg hover:text-[#517fa4]"
+            <button type='submit' className="w-full cursor-pointer p-2 rounded-full bg-[#243949] text-white text-lg hover:text-[#517fa4]"
             >
                 Register
             </button>

@@ -20,7 +20,7 @@ const model = genAI.getGenerativeModel({
  
     response: {
 
-    "text": "this is you fileTree structure of the express server",
+    "text": "this is your fileTree structure of the express server",
     "fileTree": {
         "app.js": {
             file: {

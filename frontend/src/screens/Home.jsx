@@ -145,7 +145,7 @@ const Home = () => {
       });
   }, []);
 
- 
+
   return (
     <main className='min-h-screen p-4 bg-white relative'>
       <ToastContainer toastClassName="Toastify__toast--info Toastify__icon--info custom-toast-icon"
@@ -159,14 +159,14 @@ const Home = () => {
             <div className='flex justify-between gap-1'>
                 <button
                     onClick={() => setIsModalOpen(true)} 
-                    className='project text-lg py-3 px-4 w-full font-bold rounded-lg bg-gradient-to-r from-[#243949] to-[#517fa4] hover:text-zinc-200 text-white'>
+                    className='project cursor-pointer text-lg py-3 px-4 w-full font-bold rounded-lg bg-gradient-to-r from-[#243949] to-[#517fa4] hover:text-zinc-200 text-white'>
                     New Project
                     <i className='ri-add-line ml-2'></i>
                 </button>
 
                 <button
                     onClick={() => setIsLeaveProjectModalOpen(true)}
-                    className='project text-lg py-3 px-4 w-full font-bold rounded-lg bg-gradient-to-r from-[#a0464e] to-[#c3757c] hover:text-zinc-200 text-white'>
+                    className='project cursor-pointer text-lg py-3 px-4 w-full font-bold rounded-lg bg-gradient-to-r from-[#a0464e] to-[#c3757c] hover:text-zinc-200 text-white'>
                     Leave Project
                     <i className='ri-delete-bin-line ml-2'></i>
                 </button>
